@@ -1,15 +1,11 @@
 #Ex1:
 "Maggie" + "Chu"
-#Ex2
-movies = {movie1: 1975,
-      movie2: 2004,
-      movie3: 2345,
-      movie4: 1234,
-      movie5: 3255
-}
+#Ex4
+movies = [1975, 2004, 2345, 1234,3255]
 
-puts movies[:movie1]
-puts movies[:movie2]
-puts movies[:movie3]
-puts movies[:movie4]
-puts movies[:movie5]
+puts movies[0]
+
+puts movies[1]
+puts movies[2]
+puts movies[3]
+puts movies[4]
