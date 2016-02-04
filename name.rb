@@ -1,8 +1,7 @@
-puts "Please insert your name: "
-name = gets.chomp
-puts "Hello " + name + "!!"
+puts "Please insert your first name: "
+firstname = gets.chomp
+puts "Please insert your last name: "
+lastname = gets.chomp
+puts "Hello " + firstname + " " + lastname + "!!"
 #-----------------------
 
-10.times do
-    puts name
-    end
