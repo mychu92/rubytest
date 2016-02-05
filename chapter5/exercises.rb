@@ -1,9 +1,14 @@
-#ex 3
+#ex 4
 
-array = [1, 2, 3, 4, 5]
-x = 0
-array.each_with_index do |number, index|
-    puts "#{index + 1}. #{number}"
-    x += 1
+def countdown (number)
+    
+puts number
+if number == 0
+    number
+else countdown(number - 1)
+end
 end
 
+countdown(5)
+
+    
