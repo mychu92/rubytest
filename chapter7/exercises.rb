@@ -1,10 +1,5 @@
-#ex 2
+#ex 5
 
 hash1 = {one: 1, two: 2}
-hash2 = {three: 3}
 
-hash1.merge(hash2)
-puts hash1
-
-hash1.merge!(hash2)
-puts hash1
+puts hash1.has_value?(9)
