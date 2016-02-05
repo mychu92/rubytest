@@ -1,7 +1,8 @@
-#ex 1
+#ex 7
 
-arr = [1, 3, 5, 7, 9, 11]
-number = 3
+a = [1, 2, 3, 4, 5]
 
-puts arr.include?(3)
-arr.include?(3)
+p a
+
+p a.map {|num| num += 2}
+
