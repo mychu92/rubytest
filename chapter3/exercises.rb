@@ -1,11 +1,9 @@
-#ex 3
+#ex 4
 
-def multiply (num1, num2)
-    num1 * num2
+def scream (word)
+    word = word + "!!!!"
+    puts word
+    word
 end
 
-puts "Enter num1: "
-num1 = gets
-puts "Enter num2: "
-num2 = gets
-puts multiply(num1.to_i, num2.to_i)
+scream("Yippeee")
