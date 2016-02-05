@@ -1,10 +1,10 @@
 #say.rb
 
-def say(words = 'default')
-    puts words + '.'
+
+def printnum(num = 3)
+    num + 3
+    
 end
 
-say()
-say "hi"
-say("how are you")
-say("I'm fine")
+num = gets
+printnum(num)
