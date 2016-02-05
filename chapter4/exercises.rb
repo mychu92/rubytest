@@ -1,14 +1,16 @@
-#ex 3
+#ex 5
 def observe (num)
-    if (num >= 0 && num <= 50)
-        puts "number is between 0 and 50"
-    elsif (num >= 51 && num <= 100)
-        puts "number is between 51 and 100"
-        
-    elsif (num > 100)
-    puts "number is above 100"
-    else puts "number is not valid"
+    answer = case
+        when num < 0
+        "number is not valid"
+        when num <= 50
+        "number is between 0 and 50"
+        when num <= 100
+        "number is between 51 and 100"
+        else
+        "number is above 100"
     end
+puts answer
 end
 
 num = gets.chomp.to_i
