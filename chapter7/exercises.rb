@@ -1,13 +1,10 @@
-#ex 1
+#ex 2
 
-family = {  uncles: ["bob", "joe", "steve"],
-    sisters: ["jane", "jill", "beth"],
-    brothers: ["frank","rob","david"],
-    aunts: ["mary","sally","susan"]
-}
+hash1 = {one: 1, two: 2}
+hash2 = {three: 3}
 
-im_family = family.select do |k,v|
-    k== :sisters || k == :brothers
-    end
+hash1.merge(hash2)
+puts hash1
 
-p im_family.values.flatten
+hash1.merge!(hash2)
+puts hash1
