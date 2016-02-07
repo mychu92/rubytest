@@ -1,0 +1,3 @@
+with newline hopefully
+second line with newline
+third line
