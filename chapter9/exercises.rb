@@ -1,4 +1,4 @@
-#ex2
+#ex4
 
 def execute(&block)
     block.call
