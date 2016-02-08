@@ -1,14 +1,7 @@
-#ex1
+#ex2
 
-words = ["laboratory","experiment","Pans Labyrinth","elaborate","polar bear"]
-
-def check (word)
-    if /lab/ =~ word
-        puts word
-        else puts "Nope"
-        end
+def execute(&block)
+    block.call
 end
 
-words.each do |word|
-check(word)
-end
+execute { puts "Hello from inside the execute method!" }
